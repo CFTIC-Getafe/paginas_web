@@ -1,2 +1,2 @@
-# paginas_web
-Ejercicios del módulo 1 del curso de Páginas Web
+# Paginas Web
+Ejercicios del módulo 1 del curso "Construcción de Páginas Web"
