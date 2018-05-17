@@ -1,3 +1,16 @@
+/* Estilos básicos despues del reset */
+
+/* h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ */
+
+.menu {
+	list-style: none;
+}
+
 /* div {
     background-color: bisque
 } */
