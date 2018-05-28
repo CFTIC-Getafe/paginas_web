@@ -16,3 +16,9 @@ span {
     padding: 1rem;
     background-color: aquamarine;
 }
+
+div p {
+    width: 30%;
+    height: 5rem;
+    overflow: auto;
+}
