@@ -30,6 +30,7 @@
     <article>
         <h2>Libros de Tolkien</h2>
         <ul>
+            <!-- Ejemplo de metadatos no estandarizados usando clases -->
             <li class="titulo">El Señor de los Anillos</li>
             <li class="tit_orig">The Lord of the Rings</li>
             <li class="fecha_orig">1954</li>
@@ -39,10 +40,12 @@
             <li class="descrip">Novela de fantasía épica escrita por el filólogo y escritor británico .</li>
         </ul>
         <p>
+            <!-- Ejemplo de metadatos con atributos propios -->
             <span data-titulo="El Señor de los Anillos" data-tit-orig="The Lord of the Rings" data-fecha-orig="1954">El Señor de los Anillos</span> es un novela de fantasía épica escrita por el filólogo y escritor británico <span data-autor="J. R. R. Tolkien">Tolkien</span>
         </p>
         </li>
         </ul>
+        <!-- Ejemplo de Microdata - http://schema.org/ -->
         <ul itemscope itemtype="http://schema.org/Book" itemid="1">
             <li itemprop="translationOfWork">
                     <span itemscope itemtype="http://schema.org/CreativeWork" itemid="1">
@@ -75,6 +78,7 @@
     </aside>
     <footer>
         <address>
+            <!-- Ejemplo de Microformatos - http://microformats.org/ -->
             <div id="hcard-Alejandro-L.-Cerezo" class="vcard">
                 Saludos desde
                 <div class="org">CFTIC</div>
@@ -87,9 +91,8 @@
                     <a class="email" href="mailto:alce65@hotmail.es">alce65@hotmail.es</a>
                     <span class="adr">
                         <span class="street-address">Pez</span>
-                        <span class="locality">Getafe</span>
-                        ,
-                        <span class="region">Madrdi</span>,
+                        <span class="locality">Getafe</span>,
+                        <span class="region">Madrid</span>,
                         <span class="postal-code">28905</span>
                         <span class="country-name">Spain</span>
                     </span>
