@@ -1,3 +1,8 @@
+# Ficheros MMedia
+*.webm
+*.mp4
+*.flv
+
 # Logs
 logs
 *.log
